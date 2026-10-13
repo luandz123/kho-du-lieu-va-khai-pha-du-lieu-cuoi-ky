@@ -214,6 +214,30 @@ if page.startswith("1."):
         ax.set_xlabel("Tổng lượt xem")
         st.pyplot(fig)
 
+    st.markdown("---")
+    st.subheader("🏛️ Kiến Trúc Hệ Thống & Lược Đồ Kho Dữ Liệu (Chuẩn PTIT)")
+    
+    col_arch1, col_arch2 = st.columns(2)
+    with col_arch1:
+        st.markdown("**1. Sơ đồ kiến trúc tổng thể 4 tầng OLAM (Theo giáo trình TS. Nguyễn Quỳnh Chi & Han & Kamber):**")
+        arch_img = BASE_DIR / "docs" / "images" / "system_architecture.png"
+        if arch_img.exists():
+            st.image(str(arch_img), use_container_width=True)
+            
+    with col_arch2:
+        st.markdown("**2. Lược đồ hình sao (Star Schema ERD - dw.FactRating & 5 Dimensions):**")
+        star_img = BASE_DIR / "docs" / "images" / "star_schema_diagram.png"
+        if star_img.exists():
+            st.image(str(star_img), use_container_width=True)
+
+    with st.expander("👥 Bảng Phân Công Nhiệm Vụ Nhóm Sinh Viên (Mô Hình 2 Người - 50% / 50%)"):
+        st.markdown("""
+        | Thành viên | Vai trò chuyên môn | Trách nhiệm chính trong đề tài | Tỷ lệ đóng góp |
+        | :--- | :--- | :--- | :---: |
+        | **Sinh viên 1** *(Nhóm trưởng)* | **Data Engineer & DW Architect** | • Thu thập MovieLens 1M & streaming IMDb.<br>• Thiết kế Star Schema, DDL SQL Server (`stg`, `dw`).<br>• Lập trình pipeline nạp ETL (`load_dw.py`), nạp 1M ratings.<br>• Kiểm toán chất lượng dữ liệu (Data Quality Audit 5/5 pass).<br>• Xây dựng truy vấn OLAP (`ROLLUP`, `CUBE`, `LAG()` QoQ).<br>• Đóng gói script `run_all.sh` & viết Chương 1-3 báo cáo. | **50%** |
+        | **Sinh viên 2** *(Thành viên)* | **Data Scientist & BI Engineer** | • Trích xuất vector đặc trưng sở thích người dùng 36 chiều.<br>• Huấn luyện K-Means ($K=4$), kiểm định Chi-Square ($p < 0.001$).<br>• Xây dựng hệ gợi ý Item-based CF & FP-Growth đạo diễn.<br>• Thiết kế giao diện Web App Streamlit & Dashboard Power BI.<br>• Thiết kế bộ slide thuyết trình PowerPoint & viết Chương 4-6 báo cáo. | **50%** |
+        """)
+
     st.info("ℹ️ **Lưu ý phương pháp luận:** Cột `watch_minutes` được sinh mô phỏng dựa trên thời lượng phim thực tế từ IMDb và điểm rating (nhiễu Gauss, seed=42) và gắn cờ `is_simulated = 1`.")
 
 # ==============================================================================

@@ -152,6 +152,28 @@ def markdown_to_docx():
             run.font.size = Pt(12)
             run.font.bold = True
             run.font.color.rgb = RGBColor(0x37, 0x41, 0x51)
+        elif re.match(r"^!\[(.*?)\]\((.*?)\)", line):
+            # Markdown Image
+            img_m = re.match(r"^!\[(.*?)\]\((.*?)\)", line)
+            caption = img_m.group(1)
+            raw_path = img_m.group(2).replace("file://", "").strip()
+            p_img = Path(raw_path)
+            if not p_img.is_absolute():
+                p_img = (BASE_DIR / raw_path).resolve()
+            if p_img.exists():
+                try:
+                    doc.add_picture(str(p_img), width=Inches(6.0))
+                    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    if caption:
+                        p_cap = doc.add_paragraph()
+                        p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                        p_cap.paragraph_format.space_after = Pt(8)
+                        r_cap = p_cap.add_run(f"Hình: {caption}")
+                        r_cap.font.italic = True
+                        r_cap.font.size = Pt(10)
+                        r_cap.font.color.rgb = RGBColor(0x64, 0x74, 0x8B)
+                except Exception as ex:
+                    print(f"[WARN] Failed to insert image {p_img}: {ex}")
         elif line.startswith("> "):
             # Callout / Alert
             p = doc.add_paragraph()

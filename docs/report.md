@@ -45,6 +45,15 @@ Trong kỷ nguyên bùng nổ của các nền tảng phát trực tuyến kỹ 
 - **Câu hỏi Q3:** *Thể loại nào đang tăng trưởng lượt xem mạnh nhất trong các quý gần đây?*  
   $\rightarrow$ Phương pháp giải quyết: Thiết kế các truy vấn OLAP với toán tử `ROLLUP`, `CUBE`, hàm cửa sổ `LAG()` đo lường tỷ lệ tăng trưởng liên quý ($QoQ\%$), xếp hạng và thực thi các thao tác Roll-up, Drill-down, Slice, Dice, Pivot.
 
+### 1.3. Bảng phân công nhiệm vụ thành viên nhóm (Mô hình 2 người - Tỷ lệ 50% / 50%)
+
+Để đảm bảo chất lượng kỹ thuật cao nhất và phối hợp nhịp nhàng theo quy trình phát triển phần mềm chuẩn doanh nghiệp, nhóm phân chia trách nhiệm cụ thể như sau:
+
+| Thành viên | Vai trò chuyên môn | Nhiệm vụ đảm nhiệm chính | Tỷ lệ đóng góp |
+| :--- | :--- | :--- | :---: |
+| **Sinh viên 1** *(Nhóm trưởng)* | **Data Engineer & Data Warehouse Architect** | • Khảo sát nguồn dữ liệu MovieLens 1M, streaming IMDb và Netflix catalog.<br>• Thiết kế Lược đồ hình sao (Star Schema), xây dựng DDL SQL Server (`stg` & `dw`).<br>• Lập trình pipeline ETL (`clean_and_match.py`, `load_dw.py`), nạp 1 triệu bản ghi.<br>• Xây dựng bộ kiểm toán chất lượng dữ liệu (Data Quality Audit 5/5 tiêu chí).<br>• Viết các truy vấn đa chiều OLAP (`ROLLUP`, `CUBE`, `LAG()` tính QoQ growth cho Q3).<br>• Đóng gói script tự động hóa `run_all.sh`, viết Chương 1, 2, 3 báo cáo. | **50%** |
+| **Sinh viên 2** *(Thành viên)* | **Data Scientist & BI / Machine Learning Engineer** | • Trích xuất vector đặc trưng sở thích người dùng 36 chiều (tỷ lệ xem & rating thể loại).<br>• Huấn luyện mô hình phân cụm K-Means ($K=4$), phân tích Elbow, Silhouette, PCA 2D.<br>• Thực hiện kiểm định thống kê Chi-Square ($\chi^2$) mối quan hệ Giới tính & Nhóm tuổi cho Q1.<br>• Xây dựng hệ gợi ý Item-based Collaborative Filtering và khai phá FP-Growth đạo diễn cho Q2.<br>• Thiết kế giao diện tương tác Web App Streamlit (`streamlit_app.py`) và Power BI Desktop.<br>• Thiết kế slide thuyết trình PowerPoint, viết Chương 4, 5, 6 báo cáo học thuật. | **50%** |
+
 ---
 
 ## 2. CƠ SỞ LÝ THUYẾT VÀ TÀI LIỆU THAM CHIẾU
@@ -63,6 +72,8 @@ Kiến trúc hệ thống triển khai theo mô hình **4 tầng OLAM (Online An
 2. **Tầng 2 (CSDL đa chiều):** Lược đồ hình sao (Star Schema) với các chiều Dimension phân cấp và bảng Fact sự kiện.
 3. **Tầng 3 (Mô tơ OLAP/OLAM):** Công cụ xử lý truy vấn phân tích tổng hợp (`ROLLUP`, `CUBE`, Window Functions) và các thuật toán máy học.
 4. **Tầng 4 (Giao diện người dùng):** Ứng dụng web Streamlit trực quan và Dashboard thương mại điện tử trên Power BI Desktop.
+
+![Sơ đồ kiến trúc tổng thể hệ thống 4 tầng OLAM](file:///home/luan/Desktop/cuoikykhodulieu/docs/images/system_architecture.png)
 
 ### 2.2. Các phép toán OLAP đa chiều
 Dựa trên Chương 3 giáo trình PTIT:
@@ -136,6 +147,8 @@ với $\epsilon \sim \mathcal{N}(0, 0.05)$ và cố định `seed = 42` để đ
 1. **Hiệu năng truy vấn OLAP:** Hạn chế số lượng phép nối phức tạp (JOINs) qua nhiều tầng phân cấp, tối ưu hóa tốc độ tính toán khối CUBE và ROLLUP.
 2. **Khả năng tích hợp Power BI:** Star Schema là mô hình dữ liệu được khuyến nghị hàng đầu trong Power BI để tối ưu hóa bộ máy lưu trữ VertiPaq.
 3. **Mức độ chi tiết (Grain):** Mỗi bản ghi trong Fact đại diện cho **1 sự kiện đánh giá phim của 1 người dùng đối với 1 bộ phim tại 1 ngày cụ thể**.
+
+![Sơ đồ Lược đồ hình sao Star Schema ERD](file:///home/luan/Desktop/cuoikykhodulieu/docs/images/star_schema_diagram.png)
 
 ### 4.2. Cấu trúc các bảng dữ liệu
 1. **Bảng Fact:** `dw.FactRating`
