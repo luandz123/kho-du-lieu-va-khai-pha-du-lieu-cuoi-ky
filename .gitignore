@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Environment secrets
+.env
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archive files
+*.zip
+*.tar.gz
+*.tsv.gz
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
