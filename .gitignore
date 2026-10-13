@@ -19,8 +19,14 @@ __pycache__/
 *.tar.gz
 *.tsv.gz
 
+# Large data and models (>50MB)
+data/raw/
+data/models/*.pkl
+!data/models/.gitkeep
+
 # IDE & OS
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
+

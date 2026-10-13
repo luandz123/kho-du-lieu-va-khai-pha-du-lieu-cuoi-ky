@@ -1,0 +1,31 @@
+director_a,recommended_movie,recommended_director,genres,confidence,lift,support,co_likes
+Steven Spielberg,King Kong,John Guillermin,Horror|Adventure|Action,0.0166,1.5194,0.0109,66
+Steven Spielberg,Jaws 2,Jeannot Szwarc,Action|Horror,0.0138,1.5194,0.0091,55
+Steven Spielberg,First Blood,Ted Kotcheff,Action,0.0551,1.4988,0.0363,219
+Steven Spielberg,For Your Eyes Only,John Glen,Action,0.0533,1.4982,0.0351,212
+Steven Spielberg,Deep Rising,Stephen Sommers,Horror|Sci-Fi|Action,0.0136,1.4918,0.0089,54
+James Cameron,"Omega Man, The",Boris Sagal,Sci-Fi,0.0372,1.887,0.0194,117
+James Cameron,Predator,John McTiernan,Action|Sci-Fi|Thriller,0.2381,1.8718,0.124,749
+James Cameron,Nighthawks,Bruce Malmuth,Action|Drama,0.0238,1.8694,0.0124,75
+James Cameron,Nick of Time,John Badham,Action|Thriller,0.0229,1.8674,0.0119,72
+James Cameron,Spawn,Mark A.Z. Dippé,Action|Adventure|Thriller|Sci-Fi,0.0327,1.8649,0.0171,103
+George Lucas,"Black Hole, The",Gary Nelson,Sci-Fi,0.0227,1.9888,0.0109,66
+George Lucas,"Omega Man, The",Boris Sagal,Sci-Fi,0.0382,1.9394,0.0184,111
+George Lucas,"Lord of the Rings, The",Ralph Bakshi,Animation|Adventure|Children's|Sci-Fi,0.0661,1.9285,0.0318,192
+George Lucas,Logan's Run,Michael Anderson,Action|Adventure|Sci-Fi,0.1026,1.9242,0.0494,298
+George Lucas,Star Trek V: The Final Frontier,William Shatner,Action|Adventure|Sci-Fi,0.0496,1.9193,0.0238,144
+Ridley Scott,"Fog, The",John Carpenter,Horror,0.017,1.9768,0.0083,50
+Ridley Scott,"Omega Man, The",Boris Sagal,Sci-Fi,0.0381,1.9349,0.0185,112
+Ridley Scott,52 Pick-Up,John Frankenheimer,Action|Mystery|Thriller,0.0187,1.9165,0.0091,55
+Ridley Scott,Lifeforce,Tobe Hooper,Sci-Fi|Horror,0.0177,1.909,0.0086,52
+Ridley Scott,"Black Hole, The",Gary Nelson,Sci-Fi,0.0218,1.9069,0.0106,64
+John Woo,Snake Eyes,Brian De Palma,Mystery|Thriller|Crime|Action,0.0978,5.1363,0.0134,81
+John Woo,Blown Away,Brenton Spencer,Thriller|Action,0.0652,5.0485,0.0089,54
+John Woo,"Jackal, The",Michael Caton-Jones,Action|Thriller,0.0942,4.9894,0.0129,78
+John Woo,Eraser,Chuck Russell,Action|Thriller,0.1389,4.9622,0.019,115
+John Woo,"Peacemaker, The",Mimi Leder,Thriller|War|Action,0.1111,4.897,0.0152,92
+Luc Besson,Johnny Mnemonic,Robert Longo,Action|Thriller|Sci-Fi,0.0762,4.9466,0.0106,64
+Luc Besson,Judge Dredd,Danny Cannon,Sci-Fi|Adventure|Action,0.0619,4.8543,0.0086,52
+Luc Besson,Godzilla,Roland Emmerich,Action|Sci-Fi,0.0655,4.7065,0.0091,55
+Luc Besson,Timecop,Peter Hyams,Sci-Fi|Action,0.094,4.6167,0.0131,79
+Luc Besson,Spawn,Mark A.Z. Dippé,Action|Adventure|Thriller|Sci-Fi,0.081,4.6112,0.0113,68

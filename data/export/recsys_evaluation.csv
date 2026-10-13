@@ -1,0 +1,4 @@
+Model,RMSE,MAE,Precision@10,Recall@10
+Baseline (Movie Average),0.9717,0.7759,15.40%,2.53%
+User-Based KNN CF (Cosine),1.0606,0.8332,14.01%,2.32%
+Item-Based CF (Cosine - Proposed),1.0126,0.7982,15.40%,2.53%

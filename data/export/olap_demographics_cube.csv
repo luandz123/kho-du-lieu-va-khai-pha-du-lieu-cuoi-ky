@@ -1,0 +1,253 @@
+gender,age_group,genre_name,total_views,avg_rating,total_watch_hours
+Male,50-55,Drama,21010,3.87,37300.1
+Female,50-55,Drama,8237,3.91,14519.5
+Female,Under 18,Fantasy,523,3.45,725.7
+Male,45-49,Western,1625,3.67,2710.1
+Male,50-55,Animation,1411,3.76,1757.1
+Male,35-44,Drama,52351,3.78,91305.2
+Male,Under 18,Western,244,3.57,395.6
+Female,25-34,Documentary,819,3.96,1232.4
+Female,56+,Adventure,808,3.77,1352.1
+Male,50-55,Documentary,388,3.85,571.2
+Female,35-44,Adventure,5865,3.58,9160.8
+Female,Under 18,Action,1343,3.54,2184.2
+Female,45-49,Comedy,8481,3.6,12202.4
+Male,35-44,Animation,5718,3.72,7087.5
+Female,Under 18,War,374,3.86,734.6
+Male,18-24,Western,2360,3.52,3888.3
+Female,45-49,Romance,4863,3.75,7883.7
+Female,18-24,Horror,3163,3.09,4087.9
+Male,35-44,Fantasy,5234,3.46,7643.4
+Female,56+,Crime,581,4.02,1038.8
+Male,50-55,Fantasy,1635,3.55,2418.0
+Male,56+,Fantasy,757,3.48,1122.1
+Male,56+,Drama,12579,3.9,22531.3
+Female,25-34,Drama,37052,3.74,62870.1
+Female,Under 18,Thriller,1112,3.61,1743.2
+Female,35-44,War,3097,3.89,6043.3
+Female,50-55,War,1280,4.06,2569.5
+Male,35-44,War,11417,3.9,21805.1
+Female,Under 18,Comedy,3860,3.57,5355.4
+Male,Under 18,Adventure,2768,3.41,4224.8
+Female,45-49,Animation,922,3.77,1128.9
+Female,56+,Romance,2031,3.95,3461.5
+Male,35-44,Action,40797,3.54,65812.3
+Female,18-24,Animation,3109,3.61,3698.4
+Male,50-55,Action,14019,3.6,23099.8
+Female,25-34,Musical,4300,3.81,6409.5
+Male,35-44,Thriller,28280,3.62,44996.2
+Female,35-44,Musical,2668,3.87,4083.8
+Male,25-34,War,20169,3.84,38112.2
+Male,56+,Musical,1290,3.82,2053.3
+Male,18-24,Film-Noir,1806,4.04,2982.1
+Male,35-44,Romance,19489,3.61,30525.0
+Male,50-55,Romance,7590,3.75,12383.6
+Male,50-55,Western,2090,3.73,3531.7
+Female,50-55,Comedy,6399,3.72,9423.6
+Female,45-49,Drama,10287,3.79,17943.4
+Female,Under 18,Drama,2671,3.8,4594.4
+Female,18-24,Crime,2875,3.54,4606.4
+Male,25-34,Western,6019,3.63,10154.7
+Male,50-55,Thriller,10354,3.69,16691.4
+Male,25-34,Thriller,62190,3.53,97254.1
+Female,18-24,Fantasy,1934,3.29,2655.6
+Female,18-24,Comedy,19136,3.42,26075.5
+Male,56+,Horror,1436,3.25,1908.1
+Female,56+,Documentary,72,3.9,112.3
+Male,18-24,Mystery,4934,3.55,8020.1
+Female,56+,Western,220,3.77,374.4
+Male,45-49,Film-Noir,1371,4.12,2236.4
+Female,25-34,Romance,19072,3.63,29610.9
+Male,50-55,Comedy,16734,3.62,24221.2
+Male,25-34,Mystery,11675,3.61,19182.2
+Male,18-24,Adventure,20894,3.42,31828.8
+Male,45-49,Documentary,484,3.94,722.7
+Male,25-34,Sci-Fi,53039,3.44,79449.1
+Female,35-44,Drama,19239,3.78,33293.8
+Male,35-44,Documentary,1289,3.98,1932.9
+Female,56+,Drama,4690,4.03,8574.3
+Male,56+,Documentary,188,3.98,284.2
+Female,25-34,War,4661,3.85,9005.9
+Male,18-24,Horror,12021,3.2,15817.0
+Female,56+,Horror,325,3.27,432.4
+Female,25-34,Fantasy,3024,3.6,4436.7
+Female,50-55,Children's,1137,3.72,1492.9
+Male,35-44,Crime,11470,3.74,19317.8
+Male,45-49,Adventure,8090,3.53,12768.1
+Female,50-55,Western,330,3.83,574.9
+Female,Under 18,Western,91,3.6,150.9
+Male,18-24,Crime,12498,3.7,20637.4
+Female,50-55,Film-Noir,467,4.13,763.0
+Female,45-49,Documentary,203,4.03,309.4
+Female,18-24,Children's,5234,3.35,6345.3
+Female,45-49,Sci-Fi,2787,3.47,4197.6
+Female,35-44,Documentary,419,3.88,618.3
+Male,25-34,Adventure,43036,3.43,65873.2
+Male,35-44,Adventure,20817,3.5,32491.2
+Male,50-55,Horror,3953,3.12,5063.4
+Male,45-49,Crime,4447,3.77,7511.2
+Female,18-24,Western,503,3.24,804.0
+Male,18-24,Musical,4820,3.5,6457.9
+Female,Under 18,Children's,2024,3.53,2531.8
+Female,50-55,Mystery,947,3.91,1612.9
+Female,45-49,Children's,1704,3.62,2200.0
+Male,Under 18,Drama,4812,3.79,8520.8
+Male,45-49,Comedy,19409,3.59,27602.0
+Female,25-34,Thriller,15239,3.57,24047.4
+Male,45-49,Horror,4873,3.25,6315.0
+Male,35-44,Horror,12041,3.28,15908.4
+Male,56+,Thriller,5291,3.68,8544.3
+Female,35-44,Children's,4305,3.66,5531.2
+Female,18-24,Film-Noir,474,3.84,754.9
+Male,Under 18,Romance,1962,3.51,2977.2
+Female,56+,Animation,313,3.9,391.2
+Male,Under 18,War,1204,3.91,2311.5
+Male,18-24,Animation,7160,3.63,8733.7
+Female,56+,Musical,599,4.04,981.9
+Male,56+,Film-Noir,901,4.11,1465.7
+Male,Under 18,Musical,830,3.33,1071.8
+Male,50-55,Children's,2753,3.49,3511.4
+Male,56+,Romance,4248,3.75,7002.6
+Female,35-44,Horror,3081,3.28,4116.7
+Male,35-44,Sci-Fi,26324,3.5,39548.9
+Male,45-49,Mystery,2718,3.75,4520.7
+Male,18-24,Sci-Fi,24105,3.45,36338.0
+Male,18-24,Documentary,846,3.86,1272.3
+Male,56+,Sci-Fi,4073,3.5,6161.9
+Male,50-55,War,5034,3.95,9753.7
+Female,25-34,Western,1034,3.45,1728.4
+Male,Under 18,Documentary,105,3.69,153.0
+Female,18-24,Drama,15977,3.63,26800.7
+Female,Under 18,Animation,1010,3.73,1214.9
+Female,Under 18,Musical,817,3.82,1173.8
+Male,45-49,Sci-Fi,10253,3.49,15320.6
+Male,35-44,Mystery,5987,3.69,9888.0
+Female,45-49,Horror,1319,3.3,1759.5
+Male,56+,Mystery,1641,3.84,2761.8
+Male,25-34,Animation,12607,3.67,15601.4
+Male,Under 18,Animation,1439,3.3,1662.8
+Female,50-55,Sci-Fi,1806,3.57,2789.7
+Male,25-34,Musical,10405,3.54,14483.3
+Male,25-34,Action,88531,3.45,139939.1
+Male,45-49,Drama,21854,3.78,38166.6
+Female,35-44,Comedy,18534,3.64,26519.0
+Female,56+,Comedy,2978,3.84,4515.4
+Female,18-24,Sci-Fi,4928,3.31,7300.8
+Male,25-34,Film-Noir,5165,4.07,8471.6
+Male,Under 18,Film-Noir,250,4.17,418.3
+Female,Under 18,Romance,1637,3.76,2603.1
+Male,35-44,Western,3755,3.69,6314.5
+Male,25-34,Children's,19326,3.35,23634.6
+Male,Under 18,Action,5235,3.5,8396.0
+Female,18-24,Adventure,5430,3.35,8056.1
+Female,25-34,Sci-Fi,10117,3.46,15360.0
+Male,56+,Western,1113,3.8,1910.1
+Female,18-24,Mystery,1467,3.46,2333.9
+Male,18-24,Drama,42127,3.76,73608.6
+Female,45-49,Adventure,2648,3.53,4181.6
+Female,50-55,Thriller,2886,3.79,4741.6
+Male,50-55,Musical,2120,3.75,3298.5
+Male,35-44,Musical,6078,3.65,8932.5
+Female,35-44,Crime,3425,3.7,5660.6
+Male,25-34,Romance,38931,3.51,59635.6
+Male,35-44,Film-Noir,3163,4.09,5171.2
+Female,56+,Action,1260,3.7,2173.2
+Male,50-55,Mystery,2573,3.88,4358.4
+Female,25-34,Crime,6310,3.69,10432.7
+Female,50-55,Fantasy,492,3.68,742.4
+Male,56+,Crime,2393,3.79,4086.9
+Female,56+,Sci-Fi,807,3.5,1214.7
+Male,45-49,Romance,8420,3.65,13377.3
+Male,18-24,Romance,16586,3.53,25299.7
+Female,56+,Children's,496,3.83,652.5
+Male,50-55,Sci-Fi,8868,3.56,13405.1
+Female,56+,Film-Noir,306,4.17,497.5
+Female,25-34,Children's,6417,3.65,8248.8
+Male,35-44,Comedy,50710,3.53,71049.7
+Female,18-24,Thriller,7290,3.38,11126.2
+Male,56+,Children's,1392,3.55,1789.5
+Female,Under 18,Film-Noir,80,4.06,125.7
+Male,Under 18,Sci-Fi,3232,3.49,4923.8
+Female,18-24,War,2204,3.73,4228.1
+Male,Under 18,Crime,1336,3.73,2220.9
+Male,25-34,Fantasy,11266,3.41,16230.2
+Male,18-24,Comedy,50844,3.47,69388.3
+Female,45-49,Thriller,3975,3.63,6358.5
+Female,50-55,Musical,973,3.91,1544.8
+Female,35-44,Thriller,8560,3.6,13543.3
+Male,Under 18,Mystery,674,3.62,1096.1
+Female,Under 18,Horror,640,3.18,833.5
+Female,56+,Thriller,1246,3.9,2087.5
+Female,Under 18,Crime,365,3.65,594.4
+Female,50-55,Animation,621,3.82,771.3
+Female,35-44,Action,9706,3.53,15723.6
+Female,45-49,Western,508,3.67,871.6
+Male,56+,Action,6883,3.59,11404.9
+Female,18-24,Action,8593,3.33,13455.3
+Female,35-44,Film-Noir,1012,4.0,1621.8
+Male,45-49,Animation,1967,3.72,2425.3
+Female,Under 18,Mystery,246,3.66,389.2
+Male,45-49,Musical,2485,3.71,3720.2
+Female,18-24,Romance,9070,3.54,13887.8
+Male,25-34,Horror,25856,3.2,34060.6
+Male,Under 18,Comedy,7302,3.46,9828.4
+Female,50-55,Action,2993,3.66,5036.5
+Female,45-49,Action,4608,3.51,7496.6
+Female,35-44,Western,791,3.63,1326.6
+Male,50-55,Adventure,7336,3.62,11904.1
+Male,Under 18,Fantasy,837,3.24,1148.5
+Female,Under 18,Sci-Fi,946,3.45,1422.3
+Male,56+,War,2973,4.04,5900.0
+Female,50-55,Documentary,167,4.04,256.5
+Female,45-49,Film-Noir,489,4.07,795.8
+Female,25-34,Film-Noir,1374,4.0,2227.7
+Male,25-34,Comedy,106327,3.47,146224.0
+Female,50-55,Romance,3783,3.78,6130.8
+Female,35-44,Romance,9841,3.74,15856.6
+Female,45-49,Mystery,1133,3.78,1890.8
+Male,45-49,Fantasy,1913,3.54,2806.3
+Male,45-49,War,4967,3.96,9564.7
+Female,45-49,War,1675,3.97,3338.2
+Male,Under 18,Children's,2313,2.99,2628.6
+Male,18-24,Fantasy,5941,3.37,8421.1
+Female,45-49,Crime,1601,3.7,2684.3
+Male,18-24,War,8670,3.89,16531.4
+Female,Under 18,Documentary,25,3.92,36.6
+Male,Under 18,Horror,1571,3.29,2101.2
+Female,45-49,Musical,1413,3.81,2178.8
+Male,18-24,Action,41593,3.47,65983.2
+Male,18-24,Thriller,28587,3.52,44746.2
+Female,18-24,Musical,2735,3.67,3847.3
+Male,25-34,Drama,101643,3.72,175323.3
+Female,25-34,Horror,5379,3.18,7125.3
+Male,45-49,Thriller,10958,3.64,17441.8
+Female,25-34,Adventure,9597,3.51,14798.2
+Male,56+,Adventure,3680,3.62,6065.0
+Male,45-49,Action,14749,3.53,23846.6
+Female,56+,Mystery,506,4.05,872.4
+Female,25-34,Animation,3847,3.79,4753.9
+Female,35-44,Animation,2399,3.8,2961.9
+Female,50-55,Crime,1285,3.85,2196.2
+Female,56+,War,802,4.19,1703.7
+Male,56+,Animation,770,3.7,945.3
+Male,56+,Comedy,8983,3.59,13015.2
+Male,45-49,Children's,3696,3.49,4678.7
+Male,35-44,Children's,9699,3.46,12194.6
+Female,25-34,Comedy,36883,3.56,51946.2
+Female,35-44,Fantasy,1772,3.56,2579.8
+Female,45-49,Fantasy,782,3.53,1142.2
+Male,18-24,Children's,11690,3.27,14067.3
+Female,Under 18,Adventure,1230,3.54,1851.1
+Female,50-55,Horror,728,3.38,991.0
+Male,50-55,Film-Noir,1403,4.19,2313.4
+Male,25-34,Crime,26720,3.68,44194.6
+Male,25-34,Documentary,2670,3.94,4052.9
+Female,56+,Fantasy,191,3.74,292.1
+Female,25-34,Action,17147,3.49,27677.8
+Female,18-24,Documentary,235,3.89,354.7
+Female,35-44,Sci-Fi,6009,3.5,9106.8
+Male,Under 18,Thriller,3712,3.53,5834.7
+Female,50-55,Adventure,1754,3.65,2842.1
+Female,25-34,Mystery,3485,3.63,5679.1
+Female,35-44,Mystery,2192,3.71,3582.7
+Male,50-55,Crime,4235,3.8,7192.0
